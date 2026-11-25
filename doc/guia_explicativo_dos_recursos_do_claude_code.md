@@ -1,21 +1,21 @@
 # Guia Explicativo dos Recursos do Claude Code
 
-## 1. Visão Geral
+## 1. Visêo Geral
 
-O Claude Code não é apenas um chatbot executado no terminal. Ele é descrito como um sistema completo de agentes (agent runtime), com múltiplos componentes integrados que permitem automatizar tarefas, gerenciar contexto, executar ações e interagir com diferentes ferramentas.
+O Claude Code nêo é apenas um chatbot executado no terminal. Ele é descrito como um sistema completo de agentes (agent runtime), com múltiplos componentes integrados que permitem automatizar tarefas, gerenciar contexto, executar ações e interagir com diferentes ferramentas.
 
-Seu valor principal não está apenas em escrever bons prompts, mas em saber configurar e utilizar seu ecossistema: comandos, memória, permissões e integrações.
+Seu valor principal nêo está apenas em escrever bons prompts, mas em saber configurar e utilizar seu ecossistema: comandos, memória, permissões e integrações.
 
 ---
 
 ## 2. Comandos Principais
 
-Os comandos são atalhos que estruturam o uso do sistema e aumentam muito a eficiência.
+Os comandos sêo atalhos que estruturam o uso do sistema e aumentam muito a eficiência.
 
 ### Principais comandos:
 
 - **/init**  
-  Inicializa o projeto e gera contexto inicial (como um arquivo base de operação).
+  Inicializa o projeto e gera contexto inicial (como um arquivo base de operaçêo).
 
 - **/plan**  
   Coloca o sistema em modo de planejamento antes de executar ações.
@@ -27,16 +27,16 @@ Os comandos são atalhos que estruturam o uso do sistema e aumentam muito a efic
   Executam revisões estruturadas de código.
 
 - **/context**  
-  Controla quais arquivos estão no contexto ativo.
+  Controla quais arquivos estêo no contexto ativo.
 
 - **/cost**  
-  Mostra o custo acumulado da sessão.
+  Mostra o custo acumulado da sessêo.
 
 - **/summary**  
   Resume o estado atual do trabalho.
 
 - **/resume**  
-  Retoma uma sessão anterior sem precisar explicar tudo novamente.
+  Retoma uma sessêo anterior sem precisar explicar tudo novamente.
 
 👉 Ideia central: quem domina comandos trabalha muito mais rápido do que quem usa só prompts.
 
@@ -59,10 +59,10 @@ Esse arquivo funciona como um manual operacional do projeto.
 - Decisões técnicas
 - Restrições importantes
 
-### O que NÃO deve conter:
+### O que NêO deve conter:
 
 - Textos longos
-- Documentação histórica
+- Documentaçêo histórica
 - Explicações genéricas
 
 👉 Ideia: ele atua como onboarding automático para o sistema.
@@ -79,21 +79,21 @@ O sistema possui controle detalhado sobre ações como:
 
 ### Problema comum:
 
-O sistema pede confirmação o tempo todo.
+O sistema pede confirmaçêo o tempo todo.
 
-### Solução:
+### Soluçêo:
 
 Configurar permissões automáticas (wildcards), por exemplo:
 
 - permitir todos comandos git
 - permitir edições em determinada pasta
 
-### Arquivos de configuração:
+### Arquivos de configuraçêo:
 
 - settings.json
 - settings.local.json
 
-👉 Resultado: menos interrupção e mais automação.
+👉 Resultado: menos interrupçêo e mais automaçêo.
 
 ---
 
@@ -109,14 +109,14 @@ Um único prompt grande e complexo
 
 - etapa 1: análise
 - etapa 2: planejamento
-- etapa 3: execução
-- etapa 4: verificação
+- etapa 3: execuçêo
+- etapa 4: verificaçêo
 
 Também existem sinais de:
 
-- execução paralela
+- execuçêo paralela
 - tarefas em background
-- coordenação entre agentes
+- coordenaçêo entre agentes
 
 👉 Ideia: decompor tarefas aumenta qualidade e eficiência.
 
@@ -148,7 +148,7 @@ Permitem criar:
 
 ## 7. Recursos Avançados e Internos
 
-O código indica a existência de funcionalidades ainda não totalmente públicas.
+O código indica a existência de funcionalidades ainda nêo totalmente públicas.
 
 ### Exemplos mencionados:
 
@@ -160,15 +160,15 @@ O código indica a existência de funcionalidades ainda não totalmente pública
 Também existem:
 
 - feature flags (recursos ativados por usuário)
-- diferentes experiências dependendo da configuração
+- diferentes experiências dependendo da configuraçêo
 
-👉 Ideia: o sistema está em evolução contínua.
+👉 Ideia: o sistema está em evoluçêo contínua.
 
 ---
 
-## 8. Configuração Avançada
+## 8. Configuraçêo Avançada
 
-O sistema possui diversas opções de configuração:
+O sistema possui diversas opções de configuraçêo:
 
 - roteamento de modelos
 - escolha de backend (AWS Bedrock, Google Vertex)
@@ -176,7 +176,7 @@ O sistema possui diversas opções de configuração:
 - controles de privacidade
 - modelos diferentes para subagentes
 
-👉 Ideia: pode ser ajustado como infraestrutura, não só como ferramenta.
+👉 Ideia: pode ser ajustado como infraestrutura, nêo só como ferramenta.
 
 ---
 
@@ -194,17 +194,17 @@ Usuários avançados seguem alguns princípios:
 
 ---
 
-## 10. Conclusão
+## 10. Conclusêo
 
-O Claude Code deve ser tratado como um sistema operacional de automação com IA, e não apenas como um chatbot.
+O Claude Code deve ser tratado como um sistema operacional de automaçêo com IA, e nêo apenas como um chatbot.
 
-O ganho real vem da combinação de:
+O ganho real vem da combinaçêo de:
 
 - estrutura (comandos)
 - memória (CLAUDE.md)
-- automação (permissões)
-- organização (decomposição de tarefas)
-- integração (MCP, plugins, skills)
+- automaçêo (permissões)
+- organizaçêo (decomposiçêo de tarefas)
+- integraçêo (MCP, plugins, skills)
 
 Quem entende esses elementos consegue extrair muito mais valor da ferramenta.
 

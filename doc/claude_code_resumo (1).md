@@ -7,10 +7,10 @@ O Claude Code é um CLI da Anthropic que funciona como um verdadeiro sistema ope
 - Query Engine (motor de conversa)
 - Tools (40+ ferramentas)
 - Agents (subagentes paralelos)
-- Bridge (conexão com browser/IDE)
+- Bridge (conexêo com browser/IDE)
 - Memory (memória persistente)
-- Security (camadas de proteção)
-- Context Manager (compressão de contexto)
+- Security (camadas de proteçêo)
+- Context Manager (compressêo de contexto)
 - Skills & Plugins (extensibilidade)
 
 ---
@@ -20,7 +20,7 @@ Fluxo básico:
 1. Você digita
 2. Sistema injeta contexto + skills
 3. Chamada para API
-4. Execução de tools
+4. Execuçêo de tools
 5. Retorno dos resultados
 6. Resposta final
 
@@ -29,12 +29,12 @@ Esse processo roda em loop até terminar.
 ---
 
 ## Ferramentas (Tools)
-Cada ferramenta segue um padrão:
-- call(): executa ação
-- validação de entrada
+Cada ferramenta segue um padrêo:
+- call(): executa açêo
+- validaçêo de entrada
 - permissões (allow/deny/ask)
-- execução paralela segura
-- controle de interrupção
+- execuçêo paralela segura
+- controle de interrupçêo
 
 ---
 
@@ -52,11 +52,11 @@ Cada ferramenta segue um padrão:
 - Sistema de permissões
 - Proteções de comandos
 - Análise de comandos
-- Proteção do código
+- Proteçêo do código
 
 ---
 
-## Compressão de contexto
+## Compressêo de contexto
 4 etapas:
 - Microcompact: remove outputs antigos
 - History Snip: corta histórico antigo
@@ -79,7 +79,7 @@ Sistema AutoDream consolida memórias automaticamente.
 ## Multi-agentes (Army Mode)
 - Um líder coordena vários agentes
 - Cada um executa tarefas específicas
-- Comunicação via mensagens internas
+- Comunicaçêo via mensagens internas
 
 ---
 
@@ -87,24 +87,24 @@ Sistema AutoDream consolida memórias automaticamente.
 Permite enviar tarefas para a nuvem:
 - Cria plano remoto
 - Usuário aprova
-- Execução volta localmente
+- Execuçêo volta localmente
 
 ---
 
 ## Bridge
 Conecta terminal com browser/IDE:
-- Comunicação bidirecional
+- Comunicaçêo bidirecional
 - WebSocket + HTTP
 - Sessões simultâneas
 
 ---
 
 ## Recursos ocultos (Background)
-- Sugestão de prompts
-- Extração de memória
+- Sugestêo de prompts
+- Extraçêo de memória
 - MagicDocs (docs auto-atualizadas)
 - Resumo de agentes
-- Memória de sessão
+- Memória de sessêo
 
 ---
 
@@ -118,4 +118,4 @@ Sistema gamificado com “pets”:
 ---
 
 ## Insight principal
-O Claude Code é muito mais que um CLI: é uma plataforma completa de orquestração de IA com agentes, memória, segurança e execução distribuída.
+O Claude Code é muito mais que um CLI: é uma plataforma completa de orquestraçêo de IA com agentes, memória, segurança e execuçêo distribuída.
